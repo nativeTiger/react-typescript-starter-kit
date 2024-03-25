@@ -1,6 +1,6 @@
 function App() {
   return (
-    <h1 className="text-blue-500 text-center text-3xl flex justify-center items-center h-screen">
+    <h1 className="text-blue-500 text-center text-3xl font-bold flex justify-center items-center h-screen">
       Hello World
     </h1>
   );
