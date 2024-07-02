@@ -26,3 +26,9 @@ npm run test
 ```sh
 npm run storybook
 ```
+
+## Docker
+
+```sh
+docker compose up --watch
+```
