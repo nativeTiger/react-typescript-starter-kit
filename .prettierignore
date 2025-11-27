@@ -1,0 +1,23 @@
+# Ignore build output
+dist
+build
+coverage
+
+# Ignore dependencies
+node_modules
+
+# Ignore version control
+.git
+.gitignore
+
+# Ignore configs and lockfiles
+pnpm-lock.yaml
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore compiled files
+*.min.js
+*.bundle.js
+*.log
