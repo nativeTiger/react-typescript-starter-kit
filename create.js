@@ -9,7 +9,7 @@ if (!projectName || projectName === "--help") {
   process.exit(projectName === "--help" ? 0 : 1);
 }
 
-const repo = "github:nativeTiger/react-typescript-starter-kit#main";
+const repo = "github:nativeTiger/react-typescript-starter-kit#master";
 
 console.log(`\nCreating React + TypeScript project: ${projectName}\n`);
 
