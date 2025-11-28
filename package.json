@@ -1,6 +1,6 @@
 {
   "name": "create-react-typescript-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React + TypeScript + Vite starter kit",
   "bin": "./create.js",
   "files": [
