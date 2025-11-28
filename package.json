@@ -1,15 +1,11 @@
 {
   "name": "create-react-typescript-kit",
   "version": "1.0.1",
-  "description": "Create a new React + TypeScript + Vite project",
-  "bin": "./dist/index.js",
+  "description": "React + TypeScript + Vite starter kit",
+  "bin": "./create.js",
   "files": [
-    "dist"
+    "create.js"
   ],
-  "scripts": {
-    "build": "tsup src/index.ts --format esm --platform node",
-    "dev": "tsup src/index.ts --watch"
-  },
   "keywords": [
     "react",
     "typescript",
@@ -19,16 +15,7 @@
   ],
   "author": "Native Tiger",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "degit": "^2.8.4"
-  },
-  "devDependencies": {
-    "@types/degit": "^2.8.6",
-    "@types/node": "^24.10.1",
-    "tsup": "^8.3.0",
-    "typescript": "^5.6.2"
   }
 }
