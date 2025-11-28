@@ -9,7 +9,8 @@ if (!projectName || projectName === "--help") {
   process.exit(projectName === "--help" ? 0 : 1);
 }
 
-const repo = "git@github.com:nativeTiger/react-typescript-starter-kit.git";
+// This is the magic: point directly to the template folder
+const repo = "github:nativeTiger/react-typescript-starter-kit/template#master";
 
 console.log(`\nCreating React + TypeScript project: ${projectName}\n`);
 
