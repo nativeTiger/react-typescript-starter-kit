@@ -1,11 +1,15 @@
 {
   "name": "create-react-typescript-kit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React + TypeScript + Vite starter kit",
   "bin": "./create.js",
   "files": [
     "create.js"
   ],
+  "type": "module",
+  "dependencies": {
+    "degit": "^2.8.4"
+  },
   "keywords": [
     "react",
     "typescript",
@@ -14,8 +18,5 @@
     "starter"
   ],
   "author": "Native Tiger",
-  "license": "MIT",
-  "dependencies": {
-    "degit": "^2.8.4"
-  }
+  "license": "MIT"
 }
