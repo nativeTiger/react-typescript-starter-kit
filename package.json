@@ -1,22 +1,29 @@
 {
   "name": "create-react-typescript-kit",
-  "version": "1.0.6",
-  "description": "React + TypeScript + Vite starter kit",
-  "bin": "./create.js",
-  "files": [
-    "create.js"
-  ],
+  "version": "1.0.8",
+  "description": "Create a React + TypeScript + Vite project in one command",
   "type": "module",
-  "dependencies": {
-    "degit": "^2.8.4"
+  "bin": {
+    "create-react-typescript-kit": "./bin/create.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "scripts": {
+    "dev": "node bin/create.js"
   },
   "keywords": [
     "react",
-    "typescript",
     "vite",
-    "create",
-    "starter"
+    "typescript",
+    "cli",
+    "scaffold"
   ],
-  "author": "Native Tiger",
-  "license": "MIT"
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "kolorist": "^1.8.0"
+  }
 }
